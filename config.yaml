@@ -9,7 +9,7 @@ rule-providers:
     interval: 86400
   proxy:
     type: http
-    behavior: classical
+    behavior: domain
     url: https://cdn.jsdelivr.net/gh/rolay/clash@main/proxy.yaml
     path: "./rule_provider/Proxy"
     format: yaml
